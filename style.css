@@ -1,0 +1,47 @@
+body{
+   
+}
+
+.headerbar{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.leftlinks{
+
+}
+.rightlinks{
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.container1{
+    background-color: #1f2937;
+}
+
+.container2{
+
+}
+
+.container3{
+    background-color: #e5e7eb;
+}
+
+.container4{
+
+}
+
+.footer{
+    background-color: #1f2937;
+}
