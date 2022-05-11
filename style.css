@@ -1,33 +1,74 @@
 body{
-}
+    font-family: monospace;
 
-.headerbar{
-    background-color: #1f2937;
-    color: #f9faf8;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-around;
-}
-.leftlinks{
-
-}
-.rightlinks{
-    
 }
 
 ul{
     display: flex;
     list-style-type: none;
+    gap: 16px;
 }
 
 a{
     text-decoration: none;
     color: #f9faf8;
 }
-
-.container1{
+/* start of header bar */
+.headerbar{
     background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+   
+    /* header logo and links are not aligning as should, they are uneven to each other and not at top of header.*/
 }
+
+.leftlinks{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.rightlinks{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/*end of headerbar*/
+
+/*start of first container*/
+.container1{
+    display: flex;
+    background-color: #1f2937;
+    
+}
+
+.heroleft{
+
+}
+
+.heromaintext{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.herosecondarytext{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 15px 32px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.heroright{
+
+}
+
+/*end of first container*/
 
 .container2{
 
