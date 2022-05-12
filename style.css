@@ -1,6 +1,6 @@
 body{
     font-family: monospace;
-    
+
 }
 
 ul{
@@ -22,10 +22,8 @@ a{
     color: #f9faf8;
     font-size: 24px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: space-around;
     align-items: baseline;
-   
     /* header logo and links are not aligning as should, they are uneven to each other and not at top of header. baseline makes them on same line but still need it to go to top of box*/
 }
 
@@ -45,11 +43,10 @@ a{
     background-color: #1f2937;
     padding: 100px 15px 100px 15px;
     gap: 90px;
-    
 }
 
 .heroleft{
-
+    
 }
 
 .heromaintext{
@@ -69,6 +66,7 @@ button{
     padding: 15px 32px;
     font-size: 18px;
     border-radius: 15px;
+    margin: 20px 0px 0px 0px;
 }
 .heroright{
   
@@ -86,6 +84,33 @@ button{
 .container2{
 display: flex;
 align-self: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    
+}
+
+.info1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+}
+
+.infoimg{
+    border-radius: 40px;
+    border: #3882f6 5px solid;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
 }
 /* end container 2*/
 
