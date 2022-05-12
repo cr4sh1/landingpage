@@ -1,6 +1,6 @@
 body{
     font-family: monospace;
-
+    
 }
 
 ul{
@@ -19,10 +19,11 @@ a{
     color: #f9faf8;
     font-size: 24px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
+    align-items: baseline;
    
-    /* header logo and links are not aligning as should, they are uneven to each other and not at top of header.*/
+    /* header logo and links are not aligning as should, they are uneven to each other and not at top of header. baseline makes them on same line but still need it to go to top of box*/
 }
 
 .leftlinks{
@@ -35,7 +36,7 @@ a{
 }
 /*end of headerbar*/
 
-/*start of first container*/
+/*start of container 1*/
 .container1{
     display: flex;
     background-color: #1f2937;
@@ -68,20 +69,49 @@ button{
 
 }
 
-/*end of first container*/
+/*end of container 1*/
 
 .container2{
 
 }
-
+/* start container 3*/
 .container3{
+    padding: 50px 200px 50px 200px;
     background-color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.quote{
+    font-style: italic;
+}
+
+.quoter{
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+/* end container 3*/
+
+/* start container 4*/
 .container4{
+    background-color: #3882f6;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px 50px 100px;
+    border-radius: 15px;
+}
+.4sub1{
 
 }
+/* end container 4*/
 
 .footer{
+    display: flex;
+    justify-content: center;
     background-color: #1f2937;
+    color: #e5e7eb;
 }
