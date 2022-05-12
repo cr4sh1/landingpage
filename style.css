@@ -4,7 +4,10 @@ body{
 }
 
 ul{
+    flex-shrink: 1;
     display: flex;
+    border: 50px 100px 50px 100px;
+    justify-content: center;
     list-style-type: none;
     gap: 16px;
 }
@@ -40,6 +43,8 @@ a{
 .container1{
     display: flex;
     background-color: #1f2937;
+    padding: 100px 15px 100px 15px;
+    gap: 90px;
     
 }
 
@@ -66,14 +71,24 @@ button{
     border-radius: 15px;
 }
 .heroright{
-
+  
 }
+
+.hero{
+    height: 200px;
+    width: 400px;
+}
+    
 
 /*end of container 1*/
 
+/* start container 2*/
 .container2{
-
+display: flex;
+align-self: center;
 }
+/* end container 2*/
+
 /* start container 3*/
 .container3{
     padding: 50px 200px 50px 200px;
