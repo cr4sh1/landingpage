@@ -1,79 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="headerbar">
-        <div class="leftlinks">
-            <p>Header Logo</p>
-        </div>
-        <div class="rightlinks">
-            <ul>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav>
+        <section class="header">
+            <div class="left">
+            <h1>Header Logo</h1>
+            </div>
+            <div class="right">
+                <ul>
                 <li><a href="header link one">header link one</a></li>
                 <li><a href="header link two">header link two</a></li>
                 <li><a href="header link three">header link three</a></li>
-             </ul>
-        </div>
-        
-    </div>
-
-    <div class="container1">
-        <div class="heroleft">
-            <div class="heromaintext">This website is Awesome</div>
-            <div class="herosecondarytext">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast</div>  
-            <button>Sign up</button>
-        </div>
-        <div class="heroright">
-            <img class= "hero" src="images\placeholder.png" alt="placeholder image">
-        </div>
-    </div>
-
-    <div class="conainer2">
-        <div class="title">Some random information.</div>
-        <ul>
-            <div class="info1">
-               <img class="infoimg" src="https://via.placeholder.com/150" alt="blank img that displays its width and height">
-                <div class="text">This is some subtext under an illustration or image</div> 
+                </ul>
             </div>
-            <div class="info1">
-                <img class="infoimg" src="https://via.placeholder.com/150" alt="blank img that displays its width and height">
-            <div class="text">This is some subtext under an illustration or image</div>
+        </section>
+    
+        <section class="section1">
+            <div class="left">
+                <h2>This website is Awesome</h2>
+                <p>
+                    This website has some subtext that goes here under the main title.
+                    It's smaller font and the color is lower contrast
+                </p>
+                <button>Sign up</button>
             </div>
-            <div class="info1">
-                <img class="infoimg" src="https://via.placeholder.com/150" alt="blank img that displays its width and height">
-                 <div class="text">This is some subtext under an illustration or image</div>
-                </div>
-            <div class="info1">
-                <img class="infoimg" src="https://via.placeholder.com/150" alt="blank img that displays its width and height">
-                <div class="text">This is some subtext under an illustration or image</div>
+            <div class="right">
+                <img
+                class="placeholder"
+                src="images\placeholder.png"
+                alt="placeholder image"
+                />
             </div>
-            
-        </ul>
-    </div>
+        </section>
+    </nav>
 
-    <div class="container3">
-        <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who Knows? all I know is that it looks nice.</div>
-        <div class="quoter">Thor, God of Thunder</div>
-    </div>
+    <section class="section2">
+        <h2>Some random information.</h2>
+        <div class="infocontainer">
+            <div class="info1">
+            <img
+            class="infoimg"
+            src="https://via.placeholder.com/150"
+            alt="blank img that displays its width and height"/>
+            <p>This is some subtext under an illustration or image</p>
+            </div>
 
-    <div class="container4">
-        <div class="4sub1">
-            <div class="action">Call to action! it's time!</div>
-            <div class="signup">Sign up for our product by clicking that button right over there!</div>
+            <div class="info1">
+              <img
+                class="infoimg"
+                src="https://via.placeholder.com/150"
+                alt="blank img that displays its width and height"/>
+              <p>This is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="info1">
+              <img
+                class="infoimg"
+                src="https://via.placeholder.com/150"
+                alt="blank img that displays its width and height"/>
+              <p>This is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="info1">
+              <img
+                class="infoimg"
+                src="https://via.placeholder.com/150"
+                alt="blank img that displays its width and height"/>
+              <p>This is some subtext under an illustration or image</p>
+            </div>
+        </div>    
+    </section>
+
+        <section class="section3">
+            <div class="quote">
+                This is an inspiring quote, or a testimonial from a customer. Maybe
+                it's just filling up space, or maybe people will actually read it. Who
+                 Knows? all I know is that it looks nice.
+            </div>
+            <div class="quoter">Thor, God of Thunder</div>
+        </section>
+
+    <section class="section4">
+        <div class="left">
+          <h2 class="action">Call to action! it's time!</h2>
+          <p class="signup">Sign up for our product by clicking that button right over there!</p>
         </div>
-        <div class="4sub2">
-           <button>Sign up</button> 
+        <div class="right">
+          <button>Sign up</button>
         </div>
-    </div>
+    </section>
 
     <div class="footer">
-        <P>Copyright (* insert copy right icon thing here) The Odin Project 2021 </P>
+        <p>Copyright &copy The Odin Project 2021</p>
     </div>
     
-</body>
+    </main>
+  </body>
 </html>
